@@ -1,10 +1,8 @@
-// logger.info("Hello World!");  
-// logger.warn("Warning!");  
-// logger.error("Something went wrong!");  
-// logger.success("It works!"); // Optional (not common in other loggers)
+class Logger{
 
+    constructor(){
 
-// info → Blue
-// warn → Yellow
-// error → Red
-// success → Green
+    }
+}
+
+module.exports = Logger
