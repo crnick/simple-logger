@@ -1,0 +1,26 @@
+{
+  "name": "simple-logger",
+  "version": "1.0.0",
+  "main": "dist/index.js",       
+  "types": "dist/index.d.ts", 
+  "scripts": {
+    "build":"tsc",
+    "prepublishOnly": "npm run build",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crnick/simple-logger.git"
+  },
+  "author": "nikhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crnick/simple-logger/issues"
+  },
+  "homepage": "https://github.com/crnick/simple-logger#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  }
+}
