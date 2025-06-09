@@ -5,7 +5,7 @@ interface loggingOptions {
 }
 
 
-class Logger {
+export class Logger {
     private enabled: boolean
     private timestamps: boolean
     private logLevel: number
@@ -21,7 +21,8 @@ class Logger {
     constructor(private options: loggingOptions = {}) {
         this.enabled = options.enabled ?? true;
         this.timestamps = options.timestamp ?? false;
-        this.logLevel = this.LEVELS[options.logLevel || 'debug'];
+        this.logLevel = this.LEVELS[options.logLevel || 'debug']; 
+        this.logLevel =3 //warn 
     }
 
     private log(level: string, logMessage: string, color: string) {
