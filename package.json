@@ -1,20 +1,20 @@
 {
   "name": "simple-logger",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/logger.js",
+  "types": "dist/logger.d.ts",
   "keywords": ["logger", "typescript", "console", "debugging","log","logging"],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "test": "jest"
   },
+  "files": ["dist", "README.md", "LICENSE"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/crnick/simple-logger.git"
   },
-  "author": "nikhil",
+  "author": "Nikhil",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/crnick/simple-logger/issues"
