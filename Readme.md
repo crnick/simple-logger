@@ -11,6 +11,25 @@
 - Optional ISO timestamp logging
 - Easy to enable/disable logging
 
+# Usage
+```typescript
+import logger from 'simple-logger';
+
+logger.info('This is an info message');
+logger.success('Operation completed successfully');
+logger.warn('This is a warning');
+logger.error('Something went wrong');
+logger.debug('Debugging details...');
+```
+
+# Advance Usage
+```typescript
+const logger = new Logger({
+  enabled: true,
+  timestamp: true,
+  logLevel: 'info'
+});
+```
 
 # Installation
 - npm install simple-logger 
